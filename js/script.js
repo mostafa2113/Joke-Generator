@@ -38,9 +38,6 @@ loading(false);
 //loaded
 document.addEventListener("DOMContentLoaded", () => {
     getJoke();
-    loader.style.display = "none";
-    jokecontainer.style.display = "block";
-
     newJoke.addEventListener("click", () => loading(true));
     twitter.addEventListener("click", twitte);
 })
